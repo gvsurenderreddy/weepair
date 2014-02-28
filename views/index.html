@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WeePair</title>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body class="bh-app-focusable bh-app-callable not-signed-in" data-controller="AppCtrl" data-action="Bootstrap">
+    <div class="signin view" data-controller="SignCtrl" data-action="SignIn">
+      <form>
+        <input type="text" name="name">
+        <input type="submit" value="Join">
+      </form>
+    </div>
+
+    <div class="session view" data-controller="SessionCtrl" data-action="Videos">
+      <video id="localVideo" muted></video>
+      <div id="remoteVideos"></div>
+
+      <div class="toolbar">
+        <!-- <button id="start">START</button>
+        <button id="stop">STOP</button> -->
+      </div>
+    </div>
+
+    <div class="context-menu" data-controller="AppCtrl" data-action="ContextMenu"></div>
+
+    <script src="../js/stik.min.js"></script>
+    <script src="../js/valkyr.min.js"></script>
+    <script src="../js/mousetrap.min.js"></script>
+    <script src="../js/simple_webrtc.min.js"></script>
+    <script src="../js/app.js"></script>
+  </body>
+</html>

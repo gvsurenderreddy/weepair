@@ -1,0 +1,39 @@
+body {
+  -webkit-app-region: drag;
+  background-image:url('../img/rain.gif');
+}
+
+video {
+  width:420px;
+  height:420px;
+}
+
+button {
+  -webkit-app-region: no-drag;
+}
+
+.contex-menu {
+  display:none;
+}
+
+.view {
+  display:none;
+}
+
+body.not-signed-in .signin {
+  display:block;
+}
+body.signed-in .signin {
+  display:none;
+}
+
+body.on-call {
+
+}
+
+.session {
+
+}
+body.signed-in .session {
+  display:block;
+}

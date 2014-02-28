@@ -1,0 +1,20 @@
+{
+  "name": "WeePair",
+  "version": "0.0.1",
+  "main": "./views/index.html",
+  "window": {
+    "toolbar": false,
+    "icon": "./img/icon.png",
+    "frame": false,
+    "width": 475,
+    "height": 280,
+    "min_width": 120,
+    "min_height": 160,
+    "position": "center",
+    "maintainers":[{
+      "name": "Lukas Alexandre",
+      "email": "lukas@codelogic.me"
+    }]
+  },
+  "dependencies": {}
+}
